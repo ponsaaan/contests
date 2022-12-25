@@ -1,0 +1,25 @@
+[package]
+name = "abc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+proconio = "0.3.6"
+
+[[bin]]
+name = "prob_a"
+path = "src/prob_a.rs"
+
+[[bin]]
+name = "prob_b"
+path = "src/prob_b.rs"
+
+[[bin]]
+name = "prob_c"
+path = "src/prob_c.rs"
+
+[[bin]]
+name = "prob_d"
+path = "src/prob_d.rs"
